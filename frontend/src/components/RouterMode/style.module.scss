@@ -1,0 +1,71 @@
+.router_popup {
+    .modal-dialog{
+        display: flex !important;
+    }
+    .router_mode_ct{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 56px;
+        gap: 48px;
+        width: 680px;
+        height: 361px;
+        background: #FFFFFF;
+        border-radius: 24px;
+        left: calc(50% - 680px/2);
+        top: 34.4rem;
+        .router_mode_title {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 32px;
+            line-height: 46px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: #393734;
+        }
+        .router_group {
+            display: flex;
+            margin-top: 4.8rem;
+            justify-content: center;
+        }
+        .item_router {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: center;
+            padding: 24px 0px;
+            gap: 10px;
+            width: 166px;
+            height: 154px;
+            border-radius: 24px;
+            &:nth-child(1) {
+                background: #99938F;
+                margin-right: 24px;
+            }
+            &:nth-child(2) {
+                background: #67615D;
+                margin-right: 24px;
+            }
+            &:nth-child(3) {
+                background: #393734;
+                margin-right: 24px;
+            }
+        }
+        .text_instruct {
+            color: #ffffff;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 27px;
+        }
+    }
+}
+.close_router {
+    width: 51rem;
+    height: 26px;
+    background: transparent !important;
+    bottom: -387px;
+    position: absolute;
+    border: none !important;
+}

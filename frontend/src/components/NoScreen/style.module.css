@@ -1,0 +1,27 @@
+.wrapper {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.iconWrapper {
+    margin: 1rem;
+}
+
+.text {
+    font-size: 2rem;
+    margin-top: 1.7rem;
+    font-weight: 500;
+    color:#67615D
+}
+
+.contentWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-5.6rem);
+}

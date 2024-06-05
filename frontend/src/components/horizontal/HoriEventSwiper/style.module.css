@@ -1,0 +1,10 @@
+.slideWrapper {
+    padding: 2.4rem var(--page-swiper-padding);
+    height: 100%!important;
+    align-content: flex-start;
+}
+
+.eventItem {
+    --bs-gutter-x: 2.4rem;
+    --bs-gutter-y: 2.4rem;
+}

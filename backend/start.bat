@@ -1,0 +1,1 @@
+start /min node dist/src/main.js

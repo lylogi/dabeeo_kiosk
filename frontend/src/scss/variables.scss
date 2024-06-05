@@ -1,0 +1,29 @@
+:root {
+    --bs-gutter-x: 0;
+    --footer-height: 80px;
+    --bg-dark: #2ADCC7;
+    --border-color: #2ADCC7;
+    --footer-bg: #fff;
+    --page-wrapper-padding: 1.5rem 1.5rem;
+    --page-swiper-padding: 9.56%;
+    --sidebar-width: 25.8rem;
+    --floor-width: 41.2rem;
+    --filter-height: 26.8rem;
+    --page-title-font-size: 5.6rem;
+    --bg-page: #fbfbfb;
+    --main-color: #2ADCC7;
+    --swiper-nav-size: 3.6rem;
+    --main-text-color: #393734;
+    .container-fluid {
+        --bs-gutter-x: 0;
+        .row {
+            --bs-gutter-x: 0;
+        }
+    }
+    .modal {
+        --bs-modal-zindex: 100000;
+    }
+    .modal-backdrop {
+        --bs-backdrop-zindex: 100000;
+    }
+}

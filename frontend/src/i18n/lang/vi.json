@@ -1,0 +1,58 @@
+{
+    "footer": {
+        "businessHour": "Giờ mở cửa",
+        "holiday": "Lịch nghỉ"
+    },
+    "button": {
+        "buttonAllFloor": "Toàn bộ tầng",
+        "buttonLocation": "Vị trí hiện tại",
+        "buttonRouter": "Chỉ đường",
+        "buttonLocationPoi": "Vị trí"
+    },
+    "pois": {
+        "pageTitle": "Thành viên"
+    },
+    "filter": {
+        "floor": "Theo tầng",
+        "category": "Theo category",
+        "keyword": "Theo từ khoá"
+    },
+    "common": {
+        "nodata": "Không tồn tại thành viên bạn đang tìm kiếm",
+        "noslide": "Không tồn tại slide",
+        "noFacilityData": "Không tồn tại tiện ích bạn đang tìm kiếm",
+        "noEventData": "Không có sự kiện nào đang được diễn ra",
+        "errorDataScreen": "Vui lòng liên hệ với nhân viên vận hành kiosk",
+        "contactAdmin": "Vui lòng liên hệ với quản trị viên",
+        "subTileOffice": "Văn phòng",
+        "subTileParking": "Bãi đỗ xe"
+    },
+    "search": {
+        "search": "Tìm kiếm",
+        "placeholder": "Nhập nội dung cần tìm kiếm"
+    },
+    "pages": {
+        "searchTitle": "Thành viên",
+        "fnbTitle": "Ẩm thực",
+        "eventTitle": "Sự kiện",
+        "facilitiesTitle": "Tiện ích"
+    },
+    "instruct": {
+        "zoomAction": "Đa chạm để thu phóng",
+        "routerMode": "Vui lòng chọn phương thức di chuyển.",
+        "escalatorMode": "Thang cuốn",
+        "elevatorMode": "Thang máy",
+        "stairMode": "Thang bộ",
+        "changeFloor": "Vui lòng di chuyển tới tầng ",
+        "shopPosition": "Thành viên ở tầng ",
+        "facilitiesPosition": "Tiện ích ở tầng "
+    },
+    "event": {
+        "btnViewDetail": "Chi tiết",
+        "eventListBtn": "Danh sách sự kiện"
+    },
+    "sync": {
+        "loadingData": "Dữ liệu đang trong quá trình được đồng bộ"
+    }
+
+}

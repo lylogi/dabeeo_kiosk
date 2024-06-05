@@ -1,0 +1,10 @@
+.storeItem {
+    --bs-gutter-x: 2.4rem;
+    --bs-gutter-y: 1.6rem;
+}
+
+.slideWrapper {
+    padding: 0 var(--page-swiper-padding);
+    height: 100%;
+    align-content: flex-start;
+}

@@ -1,0 +1,23 @@
+.viewSubjectFloor {
+    padding: 5.6rem 0;
+    background: #fff;
+    display: flex;
+    height: 10rem;
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.viewSubjectFloorItem {
+    display: flex !important;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 30px;
+    color: var(--main-text-color);
+    overflow: hidden;
+    white-space: nowrap;
+    z-index: 90;
+}

@@ -1,0 +1,90 @@
+module.exports = {
+    env: {
+        browser: true,
+        es2021: true,
+    },
+    extends: [
+        'airbnb',
+        'eslint:recommended',
+        'plugin:react/recommended',
+        'plugin:@typescript-eslint/recommended',
+        'plugin:styled-components-a11y/recommended',
+        'prettier',
+    ],
+    parser: '@typescript-eslint/parser',
+    parserOptions: {
+        ecmaFeatures: {
+            jsx: true,
+        },
+        ecmaVersion: 'latest',
+        sourceType: 'module',
+    },
+    plugins: ['react', '@typescript-eslint'],
+    rules: {
+        'prettier/prettier': 0,
+        'react/jsx-filename-extension': [0, { extensions: ['.ts', '.tsx', '.js', '.jsx'] }],
+        'react/function-component-definition': 0,
+        'import/no-unresolved': 0,
+        'lines-between-class-members': 0,
+        'class-methods-use-this': 0,
+        'no-useless-constructor': 0,
+        'no-use-before-define': 0,
+        'no-unused-expressions': 0,
+        'prefer-destructuring': 0,
+        'no-empty-function': 0,
+        ignoreParameters: 0,
+        '@typescript-eslint/no-unused-vars': 0,
+        '@typescript-eslint/no-inferrable-types': [0, { ignoreParameters: true }],
+        '@typescript-eslint/no-empty-function': [
+            0,
+            {
+                allow: ['private-constructors', 'protected-constructors'],
+            },
+        ],
+        'import/prefer-default-export': 0,
+        'no-unused-vars': 0,
+        'jsx-a11y/aria-role': [
+            0,
+            {
+                allowedInvalidRoles: ['text'],
+                ignoreNonDOM: true,
+            },
+        ],
+        'import/extensions': [
+            'error',
+            'ignorePackages',
+            {
+                js: 'never',
+                jsx: 'never',
+                ts: 'never',
+                tsx: 'never',
+            },
+        ],
+        'react/react-in-jsx-scope': 'off',
+        'jsx-a11y/media-has-caption': 'off',
+        'react/no-array-index-key': 'off',
+        '@typescript-eslint/no-explicit-any': 'off',
+        'jsx-a11y/click-events-have-key-events': 'off',
+        'jsx-a11y/no-static-element-interactions': 'off',
+        'import/no-extraneous-dependencies': 'off',
+        'arrow-body-style': 'off',
+        'react/jsx-no-useless-fragment': 'off',
+        'react/jsx-props-no-spreading': 'off',
+        'no-return-assign': 'off',
+        'no-param-reassign': 'off',
+        'consistent-return':'off',
+        'react/require-default-props':'off',
+        'react/no-unused-prop-types':'off',
+        'jsx-a11y/label-has-associated-control':'off',
+        'jsx-a11y/label-has-for':'off',
+        'no-console':'off',
+        '@typescript-eslint/no-non-null-assertion':'off'
+    },
+    settings: {
+        'import/resolver': {
+            node: {
+                extensions: ['.js', '.jsx', '.ts', '.tsx'],
+            },
+        },
+    },
+};

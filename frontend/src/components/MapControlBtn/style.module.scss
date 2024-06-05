@@ -1,0 +1,21 @@
+.btMapControlItem {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 14px;
+    gap: 10px;
+    border: 1px solid #99938F;
+    border-radius: 8px;
+    margin-bottom: 7px;
+    color: var(--main-text-color);
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    width: 208px;
+}
+
+.btMapControl {
+    margin: 0px auto;
+    display: table;
+}

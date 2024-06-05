@@ -1,0 +1,24 @@
+.pageTitle {
+    margin: 0 0 3.6rem;
+    font-size: var(--page-title-font-size);
+    font-weight: 700;
+    color: var(--main-text-color);
+}
+
+.pageWrapper {
+    background: var(--bg-page);
+    padding-top: 3.5rem;
+}
+
+.swiperWrapper {
+    height: calc(100vh - var(--footer-height) - 13.4rem);
+}
+
+.singleEventSwiper {
+    height: calc(100vh - var(--footer-height));
+    --swiper-navigation-color: var(--bg-dark);
+}
+
+.singleEventSwiper .swiper {
+    height: 100%;
+}

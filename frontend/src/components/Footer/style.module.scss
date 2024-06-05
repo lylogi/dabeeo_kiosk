@@ -1,0 +1,23 @@
+.footerWrapper {
+  width: 100%;
+  height: var(--footer-height);
+  background: var(--footer-bg);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 4rem!important;
+  padding-left: 4rem!important;
+  color: #fff;
+}
+
+.footerItem {
+  margin: 0 1.5rem;
+  display: flex;
+  align-items: center;
+  &:first-child{
+    margin-left: 0;
+  }
+  &:last-child {
+    margin-right: 0;
+  }
+}

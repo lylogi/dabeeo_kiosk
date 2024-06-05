@@ -1,0 +1,103 @@
+{
+    "data": {
+        "kiosk": {
+            "waiting_time": "30000",
+            "open_time": "9h00",
+            "close_time": "9h00",
+            "holiday": {},
+            "logo": "url",
+            "mapName": "",
+            "mapClientId": "",
+            "mapClientSecret": ""
+        },
+        "branches": {
+            "main": {
+                "name": "MALL",
+                "id": "1"
+            },
+            "access": []
+        },
+        "dbdata": {
+            "pois": [{
+                "action": "create",
+                "id": 4,
+                "title": "json",
+                "desc": "json",
+                "branchId": 1,
+                "seqCode": "string1022",
+                "floorId": "stringf1",
+                "category": {
+                    "id": 5,
+                    "mapCatId": "104",
+                    "title": "json",
+                    "parentCode": "string",
+                    "childrenCount": 0,
+                    "sortOrder": 0
+                },
+                "coordinateX": 12.3,
+                "coordinateY": 23.2,
+                "phone": "2323",
+                "mapPoiId": "",
+                "tags": [{
+                    "id": 1,
+                    "content": "string"
+                }]
+            }],
+"menus": [{
+                "action": "create",
+                "id": 2,
+                "title": "json",
+                "type": "string",
+                "categories": [
+                    {
+                        "id": 5,
+                        "mapCatId": "104",
+                        "title": "json",
+                        "parentCode": "string",
+                        "childrenCount": 0,
+                        "sortOrder": 0
+                    }
+                ]
+            }],
+"events": [{
+                "action": "create",
+                "id": 2,
+                "title": "json",
+                "seqCode": "string222444",
+                "content": "json",
+                "startDate": "2023-04-26T07:18:58Z",
+                "endDate": "2023-04-26T07:18:58Z",
+                "type": 1,
+                "fullScreen": "1"
+            }],
+
+"floors": [{
+                "action": "create",
+                "id": 4,
+                "title": "json",
+                "subject": "json",
+                "mapFloorId": "22",
+                "branchId": 1,
+                "order": 1
+            }],
+"screens": [{
+                "action": "create",
+                "id": 2,
+                "title": "json",
+                "seqCode": "string412",
+                "type": "1",
+                "duration": 30,
+                "startDate": "2023-04-26T07:18:58Z",
+                "endDate": "2023-04-26T07:18:58Z"
+}
+        ]
+        }
+    },
+    "content_files": [{
+        "action": "update || create || delete",
+        "name": "file name.extention",
+        "url": "url",
+        "mime_type": "1",
+        "seqCode": "string"
+    }]
+}

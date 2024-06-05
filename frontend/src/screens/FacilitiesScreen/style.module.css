@@ -1,0 +1,14 @@
+.pageWrapper {
+    background: var(--bg-page);
+    padding-top: 3.5rem;
+}
+
+.pageTitle {
+    margin: 0 0 3.6rem;
+    font-size: var(--page-title-font-size);
+    font-weight: 700;
+}
+
+.swiperWrapper {
+    height: calc(100vh - var(--footer-height) - var(--filter-height) - 13.4rem);
+}

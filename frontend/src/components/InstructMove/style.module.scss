@@ -1,0 +1,29 @@
+.instruct_map {
+    .modal-dialog{
+        display: flex !important;
+    }
+    .instruct_map_ct{
+        background: rgba(0, 0, 0, 0.7);
+        border-radius: 16px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 61px 40px 24px;
+        position: absolute;
+        width: 370px;
+        height: 228px;
+        left: calc(50% - 140.5px);
+        top: 34.4rem;
+        .icon_instruct {
+            align-items: center;
+        }
+        .text_instruct {
+            color: #ffffff;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 27px;
+        }
+    }    
+}

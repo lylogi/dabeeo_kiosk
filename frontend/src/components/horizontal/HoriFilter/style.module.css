@@ -1,0 +1,46 @@
+.filterWrapper {
+    background: #f4f4f4;
+    height: var(--filter-height);
+    position: relative;
+}
+
+.filterWrapper .navTabs {
+    --bs-nav-tabs-link-active-color: var(--main-text-color);
+    --bs-nav-link-padding-y: 1.4rem;
+    --bs-nav-link-padding-x: 2.3rem;
+    --bs-nav-link-color: #67615D;
+    --bs-nav-link-hover-color: #67615D;
+    --bs-nav-link-font-size: 2.4rem;
+    --bs-nav-tabs-link-active-bg: #f4f4f4;
+    --bs-nav-tabs-link-active-border-color: var(--footer-bg);
+    --bs-nav-tabs-border-width: 0.1rem;
+    --bs-nav-tabs-border-color: #ccc;
+    justify-content: center;
+    
+}
+
+.filterWrapper .navTabs .navLink {
+    border-width: 0.4rem;
+    border-radius: 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    min-width: 18rem;
+    letter-spacing: -0.022em;
+    font-weight: 500;
+}
+
+.tabContent {
+    width: 98%;
+    display: flex;
+    margin: 0 auto;
+    height: calc(var(--filter-height) - 6.8rem);
+    align-items: center;
+    justify-content: center;
+}
+
+.branchFilter {
+    position: absolute;
+    right: 5.6rem;
+    top: 1rem;
+}

@@ -1,0 +1,133 @@
+{
+    "kiosk_serial": "DESKTOP-BDG4ISS",
+    "site_id": "1",
+    "logs": [
+        {
+            "type": 1,
+            "data": {
+                "sub_type": 100,
+                "branch_id": 1
+            },
+            "inserted_at": "2023-06-25T17:00:00.000Z"
+        },
+        {
+            "type": 1, 
+            "data": {
+                "sub_type": 110,
+                "branch_id": 1
+            },
+            "inserted_at": "2023-06-25T17:00:00.000Z"
+        },
+        {
+            "type": 2, 
+            "data": {
+                "menu_id": 1, 
+                "branch_id": 1
+            },
+            "inserted_at": "2023-06-25T17:00:00.000Z"
+        },
+        {
+            "type": 3, 
+            "data": {
+                "language_code": "vi", 
+                "branch_id": 1
+            },
+            "inserted_at": "2023-06-25T17:00:00.000Z"
+        },
+        {
+            "type": 4,   
+            "data": {
+                "sub_type": 101, 
+                "poi_id": 10, 
+                "branch_id": 1
+            },
+            "inserted_at": "2023-06-25T17:00:00.000Z"
+        },
+        {
+            "type": 4, 
+            "data": {
+                "sub_type": 102,
+                "poi_id": 10, 
+                "branch_id": 1
+            },
+            "inserted_at": "2023-06-25T17:00:00.000Z"
+        },
+        {
+            "type": 5,
+            "data": {
+                "sub_type": 101,
+                "content": 11,
+                "poi_id": 1, 
+                "branch_id": 1
+            },
+            "inserted_at": "2023-06-25T17:00:00.000Z"
+        },
+        {
+            "type": 5,
+            "data": {
+                "sub_type": 102, 
+                "content": "pharmacity",
+                "poi_id": 1,
+                "branch_id": 1
+            },
+            "inserted_at": "2023-06-25T17:00:00.000Z"
+        },
+        {
+            "type": 5, 
+            "data": {
+                "sub_type": 102, 
+                "content": "pharmacity", 
+                "branch_id": 1
+            },
+            "inserted_at": "2023-06-25T17:00:00.000Z"
+        },
+        {
+            "type": 6,
+            "data": {
+                "sub_type": 102,
+                "hashtag_id": 2,
+                "poi_id": 1, 
+                "branch_id": 1
+            },
+            "inserted_at": "2023-06-25T17:00:00.000Z"
+        },
+        {
+            "type": 6, 
+            "data": {
+                "sub_type": 102, 
+                "hashtag_id": 2, 
+                "poi_id": 1,
+                "branch_id": 1
+            },
+            "inserted_at": "2023-06-25T17:00:00.000Z"
+        },
+        {
+            "type": 6,
+            "data": {
+                "sub_type": 201, 
+                "hashtag_id": 2,
+                "poi_id": 1,
+                "branch_id": 1
+            },
+            "inserted_at": "2023-06-25T17:00:00.000Z"
+        },
+        {
+            "type": 7,  
+            "data": {
+                "sub_type": 101, 
+                "poi_id": 10,
+                "branch_id": 1
+            },
+            "inserted_at": "2023-06-25T17:00:00.000Z"
+        },
+        {
+            "type": 7, 
+            "data": {
+                "sub_type": 102, 
+                "poi_id": 10,
+                "branch_id": 1
+            },
+            "inserted_at": "2023-06-25T17:00:00.000Z"
+        }
+    ]
+}

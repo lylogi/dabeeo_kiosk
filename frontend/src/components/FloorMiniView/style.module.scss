@@ -1,0 +1,45 @@
+.flMiniView {
+    width: 200px;
+    margin: auto;
+    display: block;
+    margin-top: 0;
+}
+
+.floorViewItem {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 10px;
+    margin-bottom: 3px;
+    background: #E5E2E1;
+}
+
+.floorItemOn {
+    background-color: var(--main-color) !important;
+    color: #fff;
+}
+
+.itemMiniView {
+    display: flex;
+    .iconMiniView {
+      display: flex;
+      width: 15px;
+      height: 20px;
+      img {
+        width: 10px;
+      }
+    }
+}
+
+.itemMiniView:last-child .floorViewItem, .itemMiniView:nth-child(5) .floorViewItem {
+    width: 154px;
+}
+
+.floorViewItem {
+    padding: 5px 10px;
+    span {
+        font-size: 6px;
+        display: block;
+        float: right;
+    }
+}

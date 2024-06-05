@@ -1,0 +1,27 @@
+.branchFilterItem {
+    font-size: 1.8rem;
+    height: 4.8rem;
+    width: 10rem;
+    border: 2px solid var(--bg-dark);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    &:first-child {
+        border-right: 0.1rem;
+        border-top-left-radius: 1.2rem;
+        border-bottom-left-radius: 1.2rem;
+    }
+    &:last-child {
+        border-left: 0.1rem;
+        border-top-right-radius: 1.2rem;
+        border-bottom-right-radius: 1.2rem;
+    }
+    &.active {
+        background: var(--bg-dark);
+        color: #fff;
+    }
+}

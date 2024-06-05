@@ -1,0 +1,14 @@
+.mainLayoutWrapper {
+    width: 100vw;
+    height: 100vh;
+}
+
+.sidebarWrapper {
+    width: var(--sidebar-width);
+    z-index: 100;
+}
+
+.mainContentWrapper {
+    width: calc(100vw - var(--sidebar-width));
+    height: calc(100vh - var(--footer-height));
+}

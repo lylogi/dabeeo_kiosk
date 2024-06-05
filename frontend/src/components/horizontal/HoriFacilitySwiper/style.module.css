@@ -1,0 +1,12 @@
+.storeItem {
+    width: calc(20% - 1.6rem);
+    margin: 0.8rem;
+}
+
+.slideWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    padding: 0 18%;
+    height: 100%;
+}

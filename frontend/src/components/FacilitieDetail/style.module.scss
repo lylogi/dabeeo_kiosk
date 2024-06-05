@@ -1,0 +1,175 @@
+.facilitie_detail {
+    position: fixed;
+    top: 8rem !important;
+}
+
+.poi_detail_ct {
+    width: 67.2rem !important;
+    max-height: 88.2rem !important;
+    min-width: 67.2rem !important;
+    background: #fff;
+    border-radius: 1.5rem;
+    padding: 0px !important;
+    color: #393734;
+    font-family: Roboto;
+
+    .poiControl {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2.4rem 0 5.2rem;
+
+        .button {
+            width: 17.4rem;
+            height: 17.4rem;
+            background: #99938F;
+            padding: 2.4rem;
+            border-radius: 2.4rem;
+            color: #fff;
+            font-size: 2.6rem;
+            line-height: 42px;
+            display: block;
+            display: flex;
+            flex-direction: column;
+            span {
+                padding-top: 9px;
+                width: 100%;
+                display: block;
+                text-align: center;
+                font-weight: 500;
+            }
+
+            img {
+                display: block;
+                width: 4.8rem;
+                margin: auto;
+                min-height: 6rem;
+            }
+        }
+
+        .btRouter {
+            float: left;
+            margin-left: 4rem;
+            background: #67615D;
+        }
+    }
+}
+
+.close_poi_detail {
+    width: 68rem;
+    height: 26px;
+    background: transparent !important;
+    bottom: -35px;
+    position: absolute;
+    border: none !important;
+}
+
+.poiTitle {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    display: flex;
+    justify-content: center;
+    padding: 3.7rem 0;
+}
+
+.poi_info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 36px 56px;
+    gap: 24px;
+    background: #F4F4F4;
+    color: #393734;
+
+    .image_poi {
+        float: left;
+        width: 18.4rem;
+        height: 18.4rem;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        img {
+            max-width: 18.4rem;
+            max-height: 100%;
+        }
+    }
+
+    .floor_info {
+        width: 34.6rem;
+        display: inline-block;
+        position: absolute;
+        left: 28rem;
+        height: 18.4rem;
+
+        .floor_poi {
+            font-size: 24px;
+            margin-top: 4.1rem;
+            display: flex;
+            align-items: center;
+            .floorTitle {
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 40px;
+            }
+
+            .pipeCharacter {
+                width: 0.2rem;
+                height: 2rem;
+                background-color: #99938F;
+                display: inline-flex;
+                margin: 0 1.2rem;
+            }
+
+            .categoryTitle {
+                font-weight: 400;
+                color: #67615D;
+            }
+
+            img {
+                margin-right: 1rem;
+            }
+        }
+
+        .mobile_poi {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 30px;
+            margin-top: 1.6rem;
+            margin-bottom: 3rem;
+            display: flex;
+            align-items: center;
+            img {
+                margin-right: 1rem;
+            }
+        }
+    }
+
+    .des_poi_ct {
+        background: #fff;
+        max-height: 22rem;
+        border-radius: 4px;
+        padding: 2rem;
+
+        .des_poi {
+            height: 18rem;
+            width: 52rem;
+            letter-spacing: -0.01em;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 26px;
+            letter-spacing: -0.02em;
+            color: #393734;
+            overflow: auto;
+            display: inline-block;
+        }
+    }
+}
+
+.displayNone {
+    display: none;
+}

@@ -1,0 +1,27 @@
+.rightMap {
+    width: calc(100vw - var(--sidebar-width) - var(--floor-width));
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+}
+
+.mapWapper {
+    display: flex;
+    height: 100%;
+}
+
+.utilitiesBar {
+    position: absolute;
+    bottom: 0;
+    z-index: 99;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 1px solid #FBFBFB;
+    border-bottom: none;
+    background: #fff;
+    z-index: 99999;
+    border-top-left-radius: 0.8rem;
+    border-top-right-radius: 0.8rem;
+}

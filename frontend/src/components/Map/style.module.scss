@@ -1,0 +1,77 @@
+.mapControl {
+  border-right: 1px solid #CCCCCC;
+  align-items: center;
+  width: var(--floor-width);
+  height: 100%;
+  background: #FBFBFB;
+  overflow-x: hidden;
+  touch-action: none;
+  z-index: 99;
+}
+.btMapControl {
+  margin: 0px auto;
+  display: table;
+}
+
+.utilitiesBar {
+  position: absolute;
+  bottom: 0;
+  z-index: 99;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 1px solid #FBFBFB;
+  border-bottom: none;
+  background: #fff;
+  z-index: 99999;
+  border-top-left-radius: 0.8rem;
+  border-top-right-radius: 0.8rem;
+}
+
+.viewAllFloor {
+  display: none;  
+  margin: auto;
+}
+.utilitiesBarCt {
+  background: #FBFBFB;
+  border: 1px #000 solid;
+  border-radius: 8px 8px 0px 0px;
+  width: 300px;
+  height: 105px;
+}
+.btMapControlItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 14px;
+  gap: 10px;
+  border: 1px solid #99938F;
+  border-radius: 8px;
+  margin-bottom: 7px;
+  color: var(--main-text-color);
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 30px;
+  width: 208px;
+}
+
+.btMapControlItemOn {
+  background-color: #67615D !important;
+  color: #fff;
+}
+
+.floorList {
+  display: table;
+  margin: 25px auto 0px;
+}
+.viewSubjectFloorItem {
+  display: none;
+}
+
+.viewMap {
+  position: relative;
+}
+
+.loadingInvisible {
+  visibility: hidden;
+}

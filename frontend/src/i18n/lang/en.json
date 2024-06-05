@@ -1,0 +1,57 @@
+{
+    "footer": {
+        "businessHour": "Business hours",
+        "holiday": "Holiday"
+    },
+    "button": {
+        "buttonAllFloor": "Floors",
+        "buttonLocation": "Here",
+        "buttonRouter": "Directions",
+        "buttonLocationPoi": "Location"
+    },
+    "pois": {
+        "pageTitle": "Members"
+    },
+    "filter": {
+        "floor": "Floor",
+        "category": "Category",
+        "keyword": "Keyword"
+    },
+    "common": {
+        "nodata": "The store you seek does not exist.",
+        "noslide": "There is not any slide",
+        "noFacilityData": "The facility you seek does not exist",
+        "noEventData": "There are no events going on",
+        "errorDataScreen": "Vui lòng liên hệ với nhân viên vận hành kiosk",
+        "contactAdmin": "Please contact the administrator",
+        "subTileOffice": "Office",
+        "subTileParking": "Parking lot"
+    },
+    "search": {
+        "search": "Search",
+        "placeholder": "Search here"
+    },
+    "pages": {
+        "searchTitle": "Members",
+        "fnbTitle": "F&B",
+        "eventTitle": "Event",
+        "facilitiesTitle": "Facilities"
+    },   
+    "instruct": {
+        "zoomAction": "Multi-touch zoom",
+        "routerMode": "Select the floor movement method.",
+        "escalatorMode": "Escalator",
+        "elevatorMode": "Elevator",
+        "stairMode": "Stairs",
+        "changeFloor": "Please move to the ",
+        "shopPosition": "Located on ",
+        "facilitiesPosition": "Located on "
+    },
+    "event": {
+        "btnViewDetail": "Details",
+        "eventListBtn": "Event List"
+    },
+    "sync": {
+        "loadingData": "Data is in the process of syncing"
+    }
+}
